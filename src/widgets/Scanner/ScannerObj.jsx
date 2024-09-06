@@ -14,7 +14,7 @@ function ScannerObj(props) {
         }}
         style={{ width: '100%', height: '400px' }}  // Adjust the height and width here
       />
-      <p>{content}</p>
+      <a href={content} target='_blank'><p>{content}</p></a>
     </div>
   );
 }
